@@ -1,3 +1,5 @@
+require 'pry'
+
 def join_nested_strings(src)
   row_index = 0
   while row_index < src.count do
@@ -14,4 +16,5 @@ def join_nested_strings(src)
     row_index += 1
   end
   p final_string
+binding.pry
 end
