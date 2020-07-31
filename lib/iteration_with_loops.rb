@@ -1,5 +1,5 @@
 require 'pry'
-p hello
+puts "hello"
 
 def join_nested_strings(src)
   row_index = 0
