@@ -14,3 +14,4 @@ def join_nested_strings(src)
     row_index += 1
   end
 end
+p final_string
