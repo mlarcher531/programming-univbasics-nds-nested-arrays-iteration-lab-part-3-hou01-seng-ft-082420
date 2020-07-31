@@ -1,9 +1,9 @@
 def join_nested_strings(src)
   row_index = 0
-  while row_index < src.count do
+  while row_index < src.length do
     element_index = 0
     final_string = []
-    while element_index < src.count do
+    while element_index < src.length do
       if src[row_index][element_index].is_a?(String)
         final_string<< src[row_index][element_index]
       end
