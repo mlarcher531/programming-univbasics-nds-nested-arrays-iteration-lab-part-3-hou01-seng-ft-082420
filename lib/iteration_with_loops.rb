@@ -13,5 +13,4 @@ def join_nested_strings(src)
     final_string.push string
     row_index += 1
   end
-  p final_string
 end
