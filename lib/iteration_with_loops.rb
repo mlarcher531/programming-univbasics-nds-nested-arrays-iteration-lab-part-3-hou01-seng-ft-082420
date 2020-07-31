@@ -1,5 +1,4 @@
 require 'pry'
-puts "hello"
 
 def join_nested_strings(src)
   row_index = 0
@@ -16,7 +15,7 @@ def join_nested_strings(src)
     final_string.push string
     row_index += 1
   end
-  p final_string
+  puts final_string
 binding.pry
 puts hello
 end
