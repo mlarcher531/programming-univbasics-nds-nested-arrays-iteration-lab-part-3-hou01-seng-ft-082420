@@ -17,5 +17,4 @@ def join_nested_strings(src)
   end
   puts final_string
 binding.pry
-puts hello
 end
